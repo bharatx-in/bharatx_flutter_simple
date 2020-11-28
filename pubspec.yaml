@@ -1,0 +1,25 @@
+name: bharatx_flutter_simple
+description: Flutter wrapper for Simple Tier from BharatX SDK
+version: 1.0.1-release1
+homepage: https://bharatx.tech/
+repository: https://github.com/bharatx-in/bharatx_flutter_simple
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bharatx_flutter_securityhelpers: 1.0.3-release1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: tech.bharatx.bharatx_flutter_simple
+        pluginClass: BharatxFlutterSimplePlugin
